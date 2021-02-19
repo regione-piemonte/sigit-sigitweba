@@ -1,0 +1,234 @@
+<porta-delegata name="ambpatorch.tavt">
+  <services>
+  
+<service name="tavt" public-interface-class="it.csi.tavt.interf.TavtInterface" top-version="2.3">
+      <operations>
+		<operation name="selRegAttuali" type="synch-call" >
+          <param-list>
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Regione[]"/>
+        </operation>
+		<operation name="selProvRegione" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Regione" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia[]"/>
+        </operation>
+		<operation name="selPopRegione" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Regione" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Popolazione"/>
+        </operation>
+		<operation name="selInfoRegione" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Regione" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Regione"/>
+        </operation>
+		<operation name="selComuniStato" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selInfoProvincia" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Provincia" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia"/>
+        </operation>
+		<operation name="selProvAttuali" type="synch-call" >
+          <param-list>
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia[]"/>
+        </operation>
+		<operation name="selAslStato" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+			<param name="p1" type="it.csi.tavt.dto.AziendaSanitaria" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.AziendaSanitaria[]"/>
+        </operation>
+		<operation name="selAslStatoRegione" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.AziendaSanitaria" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.AziendaSanitaria[]"/>
+        </operation>
+		<operation name="selInfoAsl" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.AziendaSanitaria" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.AziendaSanitaria"/>
+        </operation>
+		<operation name="selComStatoAsl" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.AziendaSanitaria" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selComMontProvincia" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Provincia" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.ComunitaMontana[]"/>
+        </operation>
+		<operation name="selComComunita" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.ComunitaMontana" />
+			<param name="p1" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selInfoComComunita" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.LimitiAmmMontani"/>
+        </operation>
+		<operation name="selInfoComMontana" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.ComunitaMontana" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.ComunitaMontana"/>
+        </operation>
+		<operation name="selInfoLimAmmMontani" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.ComunitaMontana" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.LimitiAmmMontani"/>
+        </operation>
+		<operation name="selInfoComune" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune"/>
+        </operation>
+		<operation name="selPopComune" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Popolazione"/>
+        </operation>
+		<operation name="selElencoComStato" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.Comune" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selStatoByCodIstatStorica" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+			<param name="p1" type="java.util.Date" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.StatoEstero"/>
+        </operation>
+		<operation name="selStatoByCodIstat" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.StatoEstero"/>
+        </operation>
+		<operation name="selStatoByDescr" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.StatoEstero"/>
+        </operation>
+		<operation name="selProvinceByRegione" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia[]"/>
+        </operation>
+		<operation name="selProvinciaByCodIstatOrSiglaStorico" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+			<param name="p1" type="java.util.Date" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia"/>
+        </operation>
+		<operation name="selProvinciaByCodIstatOrSigla" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Provincia"/>
+        </operation>
+		<operation name="selComuniByProvincia" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selComuneByIdComune" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.Long" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune"/>
+        </operation>
+		<operation name="selComuniByDescr" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+			<param name="p1" type="java.lang.Integer" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune[]"/>
+        </operation>
+		<operation name="selComuneByCodIstatStorica" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+			<param name="p1" type="java.util.Date" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune"/>
+        </operation>
+		<operation name="selComuneByCodIstat" type="synch-call" >
+          <param-list>
+			<param name="p0" type="java.lang.String" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.Comune"/>
+        </operation>
+		<operation name="selLimitiAmmGenerici" type="synch-call" >
+          <param-list>
+			<param name="p0" type="it.csi.tavt.dto.LimiteAmmGenerico[]" />
+          </param-list>
+          	<ret-val type="it.csi.tavt.dto.LimiteAmmGenerico[]"/>
+        </operation>
+      </operations>
+    </service>
+
+  </services>
+  <config>
+    <url-pa>**not used**</url-pa>
+    <pluggable-pd-list chooser-class="it.csi.csi.porte.FixedDelegateChooser">
+      <pluggable-pd
+        name="tavt"
+        class="it.csi.csi.porte.ejb.PortaDelegataEJB"
+        url-pa="tavt.PA_TavtFacade"
+        url-qm="tavt.ejb.ApplTavtQMGR">
+        <properties>
+          <property name="java.naming.provider.url" value="@tavt.tavt.tavt.pa.url@"/>
+          <!-- initial contxt factory per WLS92 -->
+          <property name="java.naming.factory.initial" value="weblogic.jndi.WLInitialContextFactory" />
+        </properties>
+      </pluggable-pd>
+    </pluggable-pd-list>
+	<pre-function-handler-list>
+    	<pluggable-fh
+         name="CACHE PRE"
+         class="it.csi.sigit.sigitweba.business.manager.util.TavtCache" >
+        <properties>
+       </properties>
+      </pluggable-fh>
+    </pre-function-handler-list>
+    <post-function-handler-list>
+    	<pluggable-fh
+         name="CACHE POST"
+         class="it.csi.sigit.sigitweba.business.manager.util.TavtCache" >
+        <properties>
+       </properties>
+      </pluggable-fh>
+    </post-function-handler-list>	
+    <queue-manager url=""/>
+  </config>
+  
+</porta-delegata>

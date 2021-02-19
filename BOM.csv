@@ -1,0 +1,98 @@
+name@version *;license *;copyrights *;end-of-support;dependencies;language;repository;email;URL
+activation-1.0.2.jar;CDDL-1.0;-;-;-;Java;-;-;-
+activation-1.1.1.redhat-4.jar;CDDL-1.0;-;-;-;Java;-;-;-
+aopalliance-1.0.0.jar;Public Domain;-;-;-;Java;-;-;-
+axis-1.4.csi-1.0.0.jar;Libreria personalizzata CSI basata su Apache-2.0;-;-;-;Java;-;-;-
+axis-jaxrpc-1.4.jar;Apache-2.0;-;-;-;Java;-;-;-
+bsh-2.0b4.jar;Apache-2.0;-;-;-;Java;-;-;-
+captcha-simplecaptcha-1.1.1.jar;LGPL-2.1;-;-;-;Java;-;-;-
+cglib-nodep-2.1_3.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-beanutils-1.8.0.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-collections-3.2.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-digester-1.8.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-discovery-0.2.jar;Apache-1.1;"""This product includes software developed by the Apache Software Foundation (http://www.apache.org/).""";-;-;Java;-;-;-
+commons-fileupload-1.3.1.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-httpclient-2.0.2.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-io-2.2.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-lang-2.4.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-lang3-3.1.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-logging-1.1.3.jar;Apache-2.0;-;-;-;Java;-;-;-
+commons-logging-api-1.1.jar;Apache-2.0;-;-;-;Java;-;-;-
+csi-apachesoap-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-core-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-ejb-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-ejb-weblogic-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-rmi-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-stadapter-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+csi-tools-1.4.5.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;http://opensource.org/licenses/BSD-3-Clause
+csiui-csiuicore-1.4.1.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";-;-;-;Java;-;-;-
+custom-component-3.0.1.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";-;-;-;Java;-;-;-
+displaytag-1.2.jar;Artistic-2.0;-;-;-;Java;-;-;-
+displaytag-export-poi-1.2.jar;Artistic-2.0;-;-;-;Java;-;-;-
+ejb-2.1.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+flexjson-2.1.jar;Apache-2.0;-;-;-;Java;-;-;-
+freemarker-2.3.28.jar;Apache-2.0;-;-;-;Java;-;-;-
+hibernate-jpa-2.0-api-1.0.1.Final-redhat-3.jar;LGPL-2.1;-;-;-;Java;-;-;-
+hibernate-validator-4.3.2.Final-redhat-2.jar;Apache-2.0;-;-;-;Java;-;-;-
+iridev2-pep-base-wsnmsf-1.0.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";-;-;-;Java;-;-;-
+iridev2-pep-intf-2.0.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+itext-1.3.jar;MPL-1.1;-;-;-;Java;-;-;-
+jaas-1.0.jar;Apache;-;-;-;Java;-;-;https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+javassist-3.11.0.GA.jar;"MPL-1.1; LGPL-2.1; Apache-2.0";-;-;-;Java;-;-;-
+javax.inject-1.0.0.redhat-5.jar;Apache-2.0;-;-;-;Java;-;-;-
+jaxp-1.1.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-3.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+jboss-connector-api_1.6_spec-1.0.1.Final-redhat-3.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;-
+jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-3.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-ejb3-ext-api-2.1.0.redhat-1.jar;CC0;-;-;-;Java;-;-;-
+jboss-el-api_2.2_spec-1.0.4.Final-redhat-1.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-3.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jacc-api_1.4_spec-1.0.3.Final-redhat-1.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jaspi-api_1.0_spec-1.0.1.Final-redhat-3.jar;LGPL-2.1;-;-;-;Java;-;-;http://repository.jboss.org/licenses/lgpl-2.1.txt
+jboss-jaxb-api_2.2_spec-1.0.4.Final-redhat-3.jar;"CDDL; GPL-2.0 w/cpe";-;-;-;Java;-;-;https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+jboss-jaxrpc-api_1.1_spec-1.0.1.Final-redhat-4.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-3.jar;CDDL-1.0;-;-;-;Java;-;-;http://www.opensource.org/licenses/cddl1.php
+jboss-jaxws-api_2.2_spec-2.0.2.Final-redhat-1.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jms-api_1.1_spec-1.0.1.Final-redhat-3.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jsf-api_2.1_spec-2.1.28.Final-redhat-1.jar;"CDDL; GPL-2.0 w/cpe";-;-;-;Java;-;-;https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+jboss-jsp-api_2.2_spec-1.0.2.Final-redhat-1.jar;"Apache-2.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/apache-2.0.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-jstl-api_1.2_spec-1.0.6.Final-redhat-1.jar;"CDDL; GPL-2.0 w/cpe";-;-;-;Java;-;-;https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+jboss-logging-3.1.4.GA-redhat-2.jar;Apache-2.0;-;-;-;Java;-;-;-
+jboss-rmi-api_1.0_spec-1.0.4.Final-redhat-3.jar;LGPL-2.1;-;-;-;Java;-;-;http://repository.jboss.org/licenses/lgpl-2.1.txt
+jboss-saaj-api_1.3_spec-1.0.3.Final-redhat-1.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-2.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-3.jar;"CDDL-1.0; GPL-2.0 w/ CPE";-;-;-;Java;-;-;"http://repository.jboss.org/licenses/cddl.txt; http://repository.jboss.org/licenses/gpl-2.0-ce.txt"
+jericho-html-3.1.jar;"EPL-1.0; LGPL-2.1";Copyright (C) 2004-2009 Martin Jericho;-;-;Java;-;-;http://jericho.htmlparser.net/
+jms-1.0.2b.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+jndi-1.2.1.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+jsr181-api-1.0.0.MR1-redhat-7.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;-
+jstl-1.2.jar;"CDDL-1.0; GPL-2.0";-;-;-;Java;-;-;-
+log4j-1.2.14.jar;Apache-2.0;-;-;-;Java;-;-;-
+mail-1.2.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+mail-1.4.5.redhat-2.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;-
+ognl-3.0.21.jar;Apache-2.0;-;-;-;Java;-;-;-
+poi-3.2-FINAL.jar;Apache-2.0;-;-;-;Java;-;-;-
+portlet-6.1.10.jar;LGPL-2.1;Liferay;-;-;Java;-;-;-
+remincl-1.0.2.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+resteasy-jaxb-provider-2.3.10.Final-redhat-1.jar;Apache-2.0;-;-;-;Java;-;-;-
+resteasy-jaxrs-2.3.10.Final-redhat-1.jar;Apache-2.0;-;-;-;Java;-;-;-
+resteasy-multipart-provider-2.3.10.Final-redhat-1.jar;Apache-2.0;-;-;-;Java;-;-;-
+servlet-2.4.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;-
+servlet-jsp-2.0.jar;"CDDL; GPL-2.0";-;-;-;Java;-;-;-
+soap-2.3.1.jar;Libreria Java di Base;-;-;-;Java;-;-;-
+spring-core-3.1.1.RELEASE.jar;Apache-2.0;-;-;-;Java;-;-;-
+struts2-core-2.3.35.jar;Apache-2.0;-;-;-;Java;-;-;-
+tavt-client-3.1.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";-;-;-;Java;-;-;-
+token-retry-2.0.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+token-retry-plugin-axis1.4-2.0.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+tope-dbmng-delegate-4.3.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+tope-delegate-4.3.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+util-beanlocatorfactory-1.0.1.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+util-perf-1.0.1.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+util-struts2-csitemplate-2.0.1.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";-;-;-;Java;-;-;-
+validation-api-1.0.0.GA-redhat-3.jar;Apache-2.0;-;-;-;Java;-;-;-
+wsadp-2.1.0.jar;"Apache-2.0; MIT (Rilasciata da CSI Piemonte su richiesta)";CSI-Piemonte;-;-;Java;-;-;-
+wsdl4j-1.5.1.jar;CPL-1.0;-;-;-;Java;-;-;-
+wsdl4j-1.6.3.redhat-1.jar;CPL ;-;-;-;Java;-;-;-
+xerces-1.4.4.jar;Apache-2.0;-;-;-;Java;-;-;-
+xwork-core-2.3.35.jar;Apache-2.0;-;-;-;Java;-;-;-
